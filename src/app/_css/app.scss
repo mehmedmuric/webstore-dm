@@ -58,12 +58,12 @@ body {
 }
 
 ::selection {
-  background: var(--color-dark-50);
+  background: var(--color-dark-600);
   color: var(--color-base-800);
 }
 
 ::-moz-selection {
-  background: var(--color-dark-600);
+  background: var(--color-dark-50);
   color: var(--color-base-800);
 }
 
@@ -110,6 +110,7 @@ ol {
 
 a {
   color: var(--color-dark-600);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
