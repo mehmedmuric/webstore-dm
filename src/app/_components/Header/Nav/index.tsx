@@ -16,7 +16,7 @@ export const HeaderNav: React.FC<{ header: HeaderType }> = ({ header }) => {
   const { user } = useAuth()
 
   return (
-    <nav
+    <nav 
       className={[
         classes.nav,
  
